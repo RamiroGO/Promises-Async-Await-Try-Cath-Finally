@@ -11,6 +11,6 @@ function requestHandler(req, res) {
       res.send('Tasks Completed!');
     })
     .catch(function (errors) {
-      res.send(erros);
+      res.send(errors);
     });
 }
